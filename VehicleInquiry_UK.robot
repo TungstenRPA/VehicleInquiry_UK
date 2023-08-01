@@ -5,8 +5,8 @@
       <version>11.4.0.0</version>
     </saved-by-versions>
     <file-type>robot</file-type>
-    <comment/>
-    <icon/>
+    <comment>Calls vehicleenquiry.service.gov.uk to find a UK vehicle</comment>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAA/0lEQVR4XgH0AAv/ADg2jCEilPn4ZbCwUP//deHdX9HOV///bGxsLK6tRp+dPP//YeznVbi3QaShOIODLdHORGlpItfSQfr0SQCsmamkbZXe4Vh0cjT//3euqkdxby3AvEybmjv//2hSTx3//12MizFtbSbX10xJSRlJRxbi4UX29Ef89kUAKyqZGhqf5+dRc3Iu//9vkI84KyoP2NhT//9pREEWXFof+PhRS0gXenoo1NRHTEwZTEoU4uA+8/FA/PY9AEpIji8vl///Urm3Rr27RdjUTNDMR/z3Ua2rPOThScvIQP34TNjWPuvmP8C9M7+8MOjkN66rKe7pM/rzNOYkhLGZRWt/AAAAAElFTkSuQmCC</icon>
     <tags/>
     <typed-variables>
       <typed-variable name="input" type-name="Input"/>
@@ -57,9 +57,7 @@
   <property name="waitRealTime" class="Boolean">false</property>
   <property name="privateHTTPCacheEnabled" class="Boolean">true</property>
   <property name="privateHTTPCacheSize" class="Integer">2048</property>
-  <property name="comment">
-    <null/>
-  </property>
+  <property name="comment" class="String">Calls vehicleenquiry.service.gov.uk to find a UK vehicle</property>
   <property name="tags" class="RobotTagList"/>
   <property name="humanProcessingTime">
     <null/>
