@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>11.4.0.0</version>
+    </saved-by-versions>
+    <file-type>type</file-type>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">RegistrationNumber</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.StringAttributeType" id="0"/>
+      <property name="recordFieldType" class="String" id="1">Text</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Taxed</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.BooleanAttributeType" id="2"/>
+      <property name="recordFieldType" class="String" id="3">Boolean</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">MOT</property>
+      <property name="type" idref="2"/>
+      <property name="recordFieldType" idref="3"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">TaxDue</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.DateAttributeType" id="4"/>
+      <property name="recordFieldType" class="String" id="5">DateTime</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">MOTExpires</property>
+      <property name="type" idref="4"/>
+      <property name="recordFieldType" idref="5"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Make</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">Colour</property>
+      <property name="type" idref="0"/>
+      <property name="recordFieldType" idref="1"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">DateOfFirstRegistration</property>
+      <property name="type" idref="4"/>
+      <property name="recordFieldType" idref="5"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="1">
+      <property name="name" class="String">YearOfManufacture</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.IntegerAttributeType"/>
+      <property name="recordFieldType" class="String">Integer</property>
+    </object>
+  </property>
+</object>
